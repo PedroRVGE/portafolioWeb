@@ -1,0 +1,157 @@
+* {
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Title {
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    max-width: 200px;
+}
+
+#aboutMeTitle {
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+}
+
+#aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;  
+    margin: 0 auto;  
+}
+
+#aboutMe img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#project1 {
+    padding: 20px;  
+}
+
+#project1RoleImage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    max-width: 100%;
+    height: auto;
+}
+#project1RoleImage img {
+    max-width: 250px;
+}
+
+#project2 {
+    padding: 20px;  
+}
+
+#project2RoleImage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    max-width: 100%;
+    margin-top: -50px;
+    height: auto;
+}
+#project2RoleImage img {
+    max-width: 250px;
+}
+
+#project3 {
+    padding: 20px;  
+}
+
+#project3RoleImage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+#project3RoleImage img {
+    max-width: 250px;
+}
+
+#hobbies {
+    text-align: center;
+    padding: 20px;
+}
+
+#hobbies img{
+    max-width: 250px;
+}
+
+#contact {
+    align-items: column;
+    text-align: center;
+    padding: 20px;
+}
+
+#nameText {
+    text-align: center;
+    padding: 20px;
+}
+
+#emailText {
+    text-align: center;
+    padding: 20px;
+}
+
+#messageText {
+    text-align: center;
+    padding: 20px;
+}
+
+#button {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) { /* 768 pixels becayse its for smaller screens */
+    #aboutMe {
+        flex-direction: column;  
+        text-align: center;
+    }
+
+    #aboutMe img {
+        max-width: 80%;  
+        margin: 0 auto;  
+    }
+}
